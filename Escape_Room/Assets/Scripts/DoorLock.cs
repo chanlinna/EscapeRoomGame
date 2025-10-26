@@ -12,7 +12,7 @@ public class DoorLock : MonoBehaviour
 
     void Start()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        playerTransform = GameObject.FindGameObjectWithTag("player").transform;
 
         if (messageText)
         {
